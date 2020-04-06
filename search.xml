@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F07%2F17%2FUntitled-1%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[lua字符串]]></title>
     <url>%2F2019%2F07%2F10%2Flua%E5%AD%97%E7%AC%A6%E4%B8%B2%2F</url>
     <content type="text"><![CDATA[字符串操作 序号 方法&amp;用途 1、 string.upper(argument): 字符串全部转为大写字母 2、 string.lower(argument): 字符串全部转为小写 3、 string.gsub(mainString,findString,replaceString,num): 字符串替换 string.gsub(“aaaa”,”a”,”z”,2) zzaa name age LearnShare 12 Mike 32]]></content>
@@ -18,6 +23,6 @@
   <entry>
     <title><![CDATA[Markdown基本语法]]></title>
     <url>%2F2019%2F05%2F23%2FmarkDownGrammar%2F</url>
-    <content type="text"><![CDATA[一、标题一级标题二级标题三级标题… 二、字体·加粗这是加粗字体 ·斜体这是斜体字体 ·斜体加粗这是斜体加粗字体 ·删除线这是删除线的问题 三、引用 这是引用的内容1 这是引用的内容2 这是引用的内容3 四、分割线 五、图片 六、超链接 百度 七、代码this is code. 123456789101112131415161718192021222324//字符转换 GameConfig -&gt; game_config function fmtLuaName(fn) if fn == &quot;&quot; or fn == nil then return end local tmp = string.lower(string.sub(fn, 1, 1)) local needlower = false for i = 2, #fn do local c = string.sub(fn, i, i) local asii = string.byte(fn, i, i) local isupper = asii &gt;= 65 and asii &lt;= 90 if isupper then tmp = tmp .. &quot;_&quot; needlower = true end if needlower then c = string.lower(c) needlower = false end tmp = tmp .. c end return tmpend 《夜雨》123456789101112131415 【夜雨】白居易我有所念人，隔在远远乡。我有所感事，结在深深肠。乡远去不得，无日不瞻望。肠深解不得，无夕不思量。况此残灯夜，独宿在空堂。秋天殊未晓，风雨正苍苍。不学头陀法，前心安可忘。 闲言1我可以和你去散步吗？ ###未完待续 啦啦啦]]></content>
+    <content type="text"><![CDATA[一、标题一级标题二级标题三级标题… 二、字体·加粗这是加粗字体 ·斜体这是斜体字体 ·斜体加粗这是斜体加粗字体 ·删除线这是删除线的问题 三、引用 这是引用的内容1 这是引用的内容2 这是引用的内容3 四、分割线 五、图片 六、超链接 百度 七、代码this is code. 123456789101112131415161718192021222324//字符转换 GameConfig -&gt; game_config function fmtLuaName(fn) if fn == &quot;&quot; or fn == nil then return end local tmp = string.lower(string.sub(fn, 1, 1)) local needlower = false for i = 2, #fn do local c = string.sub(fn, i, i) local asii = string.byte(fn, i, i) local isupper = asii &gt;= 65 and asii &lt;= 90 if isupper then tmp = tmp .. &quot;_&quot; needlower = true end if needlower then c = string.lower(c) needlower = false end tmp = tmp .. c end return tmpend 《夜雨》123456789101112131415 【夜雨】白居易我有所念人，隔在远远乡。我有所感事，结在深深肠。乡远去不得，无日不瞻望。肠深解不得，无夕不思量。况此残灯夜，独宿在空堂。秋天殊未晓，风雨正苍苍。不学头陀法，前心安可忘。 闲言1我来试试！！！！！！！！！！！！！ ###未完待续 啦啦啦]]></content>
   </entry>
 </search>
